@@ -1,0 +1,7 @@
+body {
+  display: flex;
+}
+
+body > div {
+  flex: 50%;
+}
