@@ -7,6 +7,7 @@ class Grid {
   distBetweenSpots: number;
   backgroundColor: string;
   radius: number;
+  g: any;
 
   constructor(
     rows: number,
