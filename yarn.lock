@@ -228,31 +228,6 @@
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
   integrity sha512-wE2v81i4C4Ol09RtsWFAqg3BUitWbHSpSlIo+bNdsCJijO9sjme+zm+73ZMCa/qMC8UEERxzGbvmr1cffo2SiQ==
 
-angular-mocks@~1.4.7:
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.4.14.tgz#ea12ec70a5227697e79575523abbec0e0f9168a7"
-  integrity sha1-6hLscKUidpfnlXVSOrvsDg+RaKc=
-
-angular-route@~1.4.7:
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/angular-route/-/angular-route-1.4.14.tgz#2e5dbfe1239423c678165c39bb38601ad66a0794"
-  integrity sha1-Ll2/4SOUI8Z4Flw5uzhgGtZqB5Q=
-
-angular@~1.4.7:
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.4.14.tgz#9d0feaf60ce6e52ce50f49ee328656d1e1875c37"
-  integrity sha1-nQ/q9gzm5SzlD0nuMoZW0eGHXDc=
-
-capitalize@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/capitalize/-/capitalize-0.5.0.tgz#efa007343183ef12aff360cc84925064b5cc778b"
-  integrity sha1-76AHNDGD7xKv82DMhJJQZLXMd4s=
-
-click-off@~0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/click-off/-/click-off-0.2.1.tgz#9c7a47a9ca8cf73d066caa1b2e405594b42e34a7"
-  integrity sha1-nHpHqcqM9z0GbKobLkBVlLQuNKc=
-
 commander@2:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -506,55 +481,12 @@ d3@^5.16.0:
     d3-voronoi "1"
     d3-zoom "1"
 
-element-class@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/element-class/-/element-class-0.1.1.tgz#890f57bc0e1365d3794316518db121c859d15e4f"
-  integrity sha1-iQ9XvA4TZdN5QxZRjbEhyFnRXk8=
-  dependencies:
-    inherits "~1.0.0"
-
-escape-stack@~0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/escape-stack/-/escape-stack-0.1.2.tgz#da4c7e60ff9fecefa40172fa02acc6d6ac0ec267"
-  integrity sha1-2kx+YP+f7O+kAXL6AqzG1qwOwmc=
-
-grid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/grid/-/grid-3.3.7.tgz#491a9f03acbc1e76c706588f70264b0fed09db70"
-  integrity sha1-SRqfA6y8HnbHBliPcCZLD+0J23A=
-  dependencies:
-    angular "~1.4.7"
-    angular-mocks "~1.4.7"
-    angular-route "~1.4.7"
-    capitalize "^0.5.0"
-    click-off "~0.2.1"
-    element-class "^0.1.1"
-    escape-stack "~0.1.2"
-    inner-text-shim "~1.0.1"
-    key "^0.1.11"
-    time-now "~0.2.1"
-
 iconv-lite@0.4:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
-
-inherits@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-1.0.2.tgz#ca4309dadee6b54cc0b8d247e8d7c7a0975bdc9b"
-  integrity sha1-ykMJ2t7mtUzAuNJH6NfHoJdb3Js=
-
-inner-text-shim@~1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/inner-text-shim/-/inner-text-shim-1.0.1.tgz#33c5fef1ef5822fbddd074f6cb8f5bfecf9befc3"
-  integrity sha1-M8X+8e9YIvvd0HT2y49b/s+b78M=
-
-key@^0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/key/-/key-0.1.11.tgz#66024f2e2daaa4fabe049b26d74c47220551cfd9"
-  integrity sha1-ZgJPLi2qpPq+BJsm10xHIgVRz9k=
 
 rw@1:
   version "1.3.3"
@@ -565,11 +497,6 @@ rw@1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-
-time-now@~0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/time-now/-/time-now-0.2.1.tgz#acc8ad3202f259a9f2791a3473957d51544ac384"
-  integrity sha1-rMitMgLyWanyeRo0c5V9UVRKw4Q=
 
 typescript@^3.9.5:
   version "3.9.5"
