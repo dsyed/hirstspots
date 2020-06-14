@@ -1000,4 +1000,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"d3":"BG5c"}],"QCba":[function(require,module,exports) {
 "use strict";var e=this&&this.__createBinding||(Object.create?function(e,t,r,n){void 0===n&&(n=r),Object.defineProperty(e,n,{enumerable:!0,get:function(){return t[r]}})}:function(e,t,r,n){void 0===n&&(n=r),e[n]=t[r]}),t=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),r=this&&this.__importStar||function(r){if(r&&r.__esModule)return r;var n={};if(null!=r)for(var i in r)"default"!==i&&Object.hasOwnProperty.call(r,i)&&e(n,r,i);return t(n,r),n};Object.defineProperty(exports,"__esModule",{value:!0});var n=r(require("d3")),i=require("./models/grid"),u=new i.Grid(4,5,20,60,45,"#fafafa");n.select("#grid").append(function(){return u.render()});
 },{"d3":"BG5c","./models/grid":"DjGp"}]},{},["QCba"], null)
-//# sourceMappingURL=http://dsyed.github.io/hirstspots/hirstspots.0604e985.js.map
+//# sourceMappingURL=https://dsyed.github.io/hirstspots/hirstspots.0604e985.js.map
