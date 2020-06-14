@@ -1,0 +1,10 @@
+body {
+  display: flex;
+}
+
+body > div {
+  flex: 50%;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
