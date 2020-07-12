@@ -29139,7 +29139,7 @@ var d3 = __importStar(require("d3"));
 
 var grid_1 = require("./models/grid");
 
-var grid = new grid_1.Grid(4, 5, 20, 60, 45, "#fafafa");
+var grid = new grid_1.Grid(4, 5, 20, 60, 45, "#fbfbf9");
 d3.select("#grid").append(function () {
   return grid.render();
 });
@@ -29171,7 +29171,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65222" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55538" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
