@@ -1,31 +1,41 @@
 <html>
   <head>
+    <title>Spots</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id="grid"></div>
-    <div id="controls">
+    <header>
+      <h1>Spots</h1>
+      <nav></nav>
+    </header>
+    <main>
       <div>
-        <label for="rows">Rows</label>
-        <input type="range" name="rows" id="rows" min="1" max="20" value="4">
+        <div id="grid"></div>
+        <label for="grid"><strong><em>Tetraflourocarbon 13-A</em></strong>, 2020</label>
       </div>
-      <div>
-        <label for="cols">Columns</label>
-        <input type="range" name="cols" id="cols" min="1" max="20" value="5">
+      <div id="controls">
+        <div>
+          <label for="rows">Rows</label>
+          <input type="range" name="rows" id="rows" min="1" max="20" value="4">
+        </div>
+        <div>
+          <label for="cols">Columns</label>
+          <input type="range" name="cols" id="cols" min="1" max="20" value="5">
+        </div>
+        <div>
+          <label for="radius">Radius</label>
+          <input type="range" name="radius" id="radius" min="10" max="30" value="20">
+        </div>
+        <div>
+          <label for="margin">Margin</label>
+          <input type="range" name="margin" id="margin" min="0" max="160" value="60">
+        </div>
+        <div>
+          <label for="distBetweenSpots">Span</label>
+          <input type="range" name="distBetweenSpots" id="distBetweenSpots" min="0" max="100" value="45">
+        </div>
       </div>
-      <div>
-        <label for="radius">Radius</label>
-        <input type="range" name="radius" id="radius" min="10" max="30" value="20">
-      </div>
-      <div>
-        <label for="margin">Margin</label>
-        <input type="range" name="margin" id="margin" min="0" max="160" value="60">
-      </div>
-      <div>
-        <label for="distBetweenSpots">Span</label>
-        <input type="range" name="distBetweenSpots" id="distBetweenSpots" min="0" max="100" value="45">
-      </div>
-    </div>
+    </main>
     <script src="./index.ts"></script>
   </body>
 </html>
